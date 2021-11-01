@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9BBFAF8C-1AD0-437B-A00C-C8A63F6D6A19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{AEBE4DCF-4B3D-414E-9EBA-B5019BBBDE7A}"
+	ProjectSection(SolutionItems) = preProject
+		build\README.md = build\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DF061AB2-0345-4FCD-95F1-B0E038D69C54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example1_FibonaciSequence", "Example1_FibonaciSequence\Example1_FibonaciSequence.csproj", "{05E08A10-7B1B-4541-8B3D-247D656EFB9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example2_GridTraveler", "Example2_GridTraveler\Example2_GridTraveler.csproj", "{FFB5A4E0-0748-4BBE-8CA4-5D51EB8C1A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example3_CanSum", "Example3_CanSum\Example3_CanSum.csproj", "{3F125362-E324-4110-9C86-65EFBCAC61F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E08A10-7B1B-4541-8B3D-247D656EFB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E08A10-7B1B-4541-8B3D-247D656EFB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E08A10-7B1B-4541-8B3D-247D656EFB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E08A10-7B1B-4541-8B3D-247D656EFB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB5A4E0-0748-4BBE-8CA4-5D51EB8C1A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB5A4E0-0748-4BBE-8CA4-5D51EB8C1A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB5A4E0-0748-4BBE-8CA4-5D51EB8C1A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB5A4E0-0748-4BBE-8CA4-5D51EB8C1A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F125362-E324-4110-9C86-65EFBCAC61F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F125362-E324-4110-9C86-65EFBCAC61F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F125362-E324-4110-9C86-65EFBCAC61F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F125362-E324-4110-9C86-65EFBCAC61F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05E08A10-7B1B-4541-8B3D-247D656EFB9F} = {DF061AB2-0345-4FCD-95F1-B0E038D69C54}
+		{FFB5A4E0-0748-4BBE-8CA4-5D51EB8C1A02} = {DF061AB2-0345-4FCD-95F1-B0E038D69C54}
+		{3F125362-E324-4110-9C86-65EFBCAC61F5} = {DF061AB2-0345-4FCD-95F1-B0E038D69C54}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A32ECE0-8CA1-44A6-BCDD-DF11F0F7304D}
+	EndGlobalSection
+EndGlobal
